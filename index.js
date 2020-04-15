@@ -13,5 +13,5 @@ function fuzzyMatch(source, match) {
 }
 
 function matchName(source, match) {
-  return source.filter( record => record.name === match)
+  return source.filter(record => record.name === match)
 }
